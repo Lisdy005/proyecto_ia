@@ -1,0 +1,16 @@
+# Entornos y caches de Python
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Artefactos generados al ejecutar el notebook (regenerables con la semilla 42)
+data/
+modelo_precio_casas.joblib
+mapa_precios.html
+reporte_metricas.csv
+
+# SO / editores
+.DS_Store
+.vscode/
